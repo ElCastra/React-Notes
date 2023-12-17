@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-1: #5ac3b0;
+  --color-2: #de5935;
+  --color-3: #dec0ab;
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1100px;
+  /* background: #f5f6f7; */
+}

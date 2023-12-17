@@ -1,0 +1,45 @@
+@import url("https://fonts.cdnfonts.com/css/diego-01");
+@import url("https://fonts.cdnfonts.com/css/inclusive-sans-2");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital@1&display=swap");
+
+.glow:hover {
+  color: white;
+  text-shadow: whitesmoke 0 0 10px;
+  transition: ease-in 0.25s;
+  cursor: pointer;
+}
+
+.diego {
+  font-family: "Diego 01", sans-serif;
+}
+
+.inclusive-sans {
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.handwrite {
+  font-family: "Shantell Sans", cursive;
+}
+
+.placeholder::placeholder {
+  @apply text-2xl italic text-center;
+}
+
+.btn-warna {
+  @apply border-2 border-secondary bg-color-3;
+  transition: all 0.3s ease;
+}
+
+.btn-warna:hover {
+  @apply bg-transparent border-color-2 text-neutral;
+  transform: scale(1.1);
+}
+
+.glassmorph {
+  @apply h-full w-full bg-gray-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100;
+}
